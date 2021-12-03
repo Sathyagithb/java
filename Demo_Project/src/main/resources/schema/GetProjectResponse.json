@@ -1,0 +1,67 @@
+{
+	"properties": {
+	  "projectDetails": {
+			"items": {
+			"properties": {
+		"projectCode": {
+			"type": "string"
+		},
+		"projectName": {
+			"type": "string"
+		},
+		"projectDesc": {
+			"type": "string"
+		},
+		"startDate": {
+			"type": "string"
+		},
+		"endDate": {
+			"type": "string"
+		},
+		"deptCode": {
+			"type": "string"
+		},
+		"deptName": {
+			"type": "string"
+		},
+		"employeeDetails": {
+			"items": {
+				"properties": {
+					"empCode": {
+						"type": "string"
+					},
+					"empName": {
+						"type": "string"
+					},
+					"empContact": {
+						"type": "string"
+					},
+					"designation": {
+						"type": "string"
+					},
+					"empProjStartDate": {
+						"type": "string"
+					},
+					"empProjEndDate": {
+						"type": "string"
+					},
+					"empStatus": {
+						"type": "string",
+						"enum": ["ACTIVE",
+						"INACTIVE"]
+					}
+				},
+				"type": "object"
+			},
+			"type": "array"
+		}
+		
+		},
+		"type": "object"
+		
+		},
+		"type": "array"
+		}
+	},
+	"type": "object"
+}
